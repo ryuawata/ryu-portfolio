@@ -1,1 +1,52 @@
 // Specific CSS for your home-page
+.top-page {
+  position: absolute;
+  top: 20px;
+}
+
+.top-page .navbar-nav li .nav-link {
+  // font-family: "PT-Sans-Bold";
+  font-size: 16px;
+  padding: 16px 24px;
+  color: rgb(255,255,255);
+}
+
+.top-page .navbar-nav li.active a, .top-page .navbar-nav li:hover a, .top-page .navbar-nav li:visited a {
+  color: red;
+}
+
+.banner {
+  padding: 0px 0px;
+}
+
+.banner .card-img-overlay {
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)); 
+}
+
+.banner .banner-center {
+  text-align: center;
+  position: relative;
+  top: 35%;
+}
+
+.banner h2 {
+  font-size: 52px;
+  color: rgb(255,255,255);
+  max-width: 728px;
+  margin: 0px auto;
+}
+
+.banner a {
+  color: rgb(255,255,255);
+  width: 200px;
+  border-radius: 40px;
+  border: 2px solid red;
+  margin-top: 40px;
+  padding: 12px 0px;
+}
+
+.two-img-background .card-img-overlay {
+  
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8), black); 
+}
+

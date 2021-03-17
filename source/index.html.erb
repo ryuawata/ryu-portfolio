@@ -1,7 +1,51 @@
-<div class="container mt-3">
-  <div class="row justify-content-center">
-    <div class="col">
-      <h1>Middleman Boilerplate</h1>
+<nav class="navbar navbar-expand-md fixed-top top-page">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#rw" tabindex="-1" aria-disabled="true">RW</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#developer" tabindex="-1" aria-disabled="true">DEVELOPER</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#music" tabindex="-1" aria-disabled="true">MUSIC</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid banner">
+  <div class="card">
+    <img src="<%= image_path('banner.jpeg') %>" alt="banner">
+    <div class="card-img-overlay">
+      <div class="banner-center">
+        <h2 class="banner-text">Playing with Codes & Chords</h2>
+        <a href="#">Resume</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid two-img-background">
+  <div class="row">
+    <div class="col-sm-6 pr-0 pl-0">
+      <div class="card"> <img class="card-img" src="<%= image_path('image_left.JPG') %>" alt="full stack developer">
+        <div class="card-img-overlay"> </div>
+      </div>
+    </div>
+    <div class="col-sm-6 pr-0 pl-0">
+      <div class="card"> <img class="card-img" src="<%= image_path('image_right.JPG') %>" alt="musician">
+        <div class="card-img-overlay"> </div>
+      </div>
     </div>
   </div>
 </div>
