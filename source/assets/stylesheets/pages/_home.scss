@@ -1,4 +1,10 @@
 // Specific CSS for your home-page
+
+.card {
+  border: none;
+  background: none;
+}
+
 .top-page {
   position: absolute;
   top: 20px;
@@ -50,3 +56,45 @@
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), black); 
 }
 
+.middle-page {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+}
+
+.about-me .row {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  max-width: 918px;
+  margin: 0 auto;
+}
+
+.about-me .row .card {
+  border-radius: 15px;
+  max-width: 464px;
+  height: auto;
+}
+
+.about-me img {
+  max-width: 464px;
+  height: auto;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.about-me .content {
+  border-radius: 0px 15px 15px 0px;
+}
+
+.about-me .content p {
+  font-size: 13px;
+}
+
+.about-me #about {
+  border-radius: 0px 15px 15px 0px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px 20px 20px 25px;
+}
+
+@media (max-width: 991px) {
+  .about-me .content {
+      padding: 20px 20px 20px 25px;
+  }
+}
