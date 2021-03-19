@@ -61,8 +61,12 @@
   width: 100%;
 }
 
-.about-me .row {
+.middle-page .about-me {
+  margin-top: -145px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.about-me .row {
   max-width: 918px;
   margin: 0 auto;
 }
@@ -81,10 +85,40 @@
 
 .about-me .content {
   border-radius: 0px 15px 15px 0px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
+.about-me .content h4 {
+    opacity: 0.5;
+}
+
+.about-me .content hr {
+  // margin-top: 8px;
+  // margin-bottom: 8px;
+}
+
+
 .about-me .content p {
-  font-size: 13px;
+  font-size: 14px;
+}
+
+.about-me .content a {
+  text-align: center;
+}
+
+.about-me .content-button {
+  display: flex;
+  justify-content: center;
+}
+
+.about-me .content-button a {
+  color: white;
+  background-color: red;
+  border-radius: 40px;
+  border: 1px solid red;
+  padding: 8px 9px;
 }
 
 .about-me #about {
@@ -95,6 +129,46 @@
 
 @media (max-width: 991px) {
   .about-me .content {
-      padding: 20px 20px 20px 25px;
+      // padding: 20px 20px 20px 25px;
+  }
+  .about-me .content h3 {
+    font-size: 24px;
+  }
+  .about-me .content h4 {
+    font-size: 18px;
+  }
+  .about-me .content hr {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .about-me .content p {
+    font-size: 12px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 767px) {
+  .middle-page .about-me {
+    margin-top: -95px;
+  }
+  .about-me .content {
+    align-items: center;
+  }
+  .about-me img {
+    border-radius: 15px;
+  }
+  .about-me .content {
+    border-radius: 15px;
+  }
+  .about-me .content p {
+    text-align: center;
+  }
+  .about-me .content hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .about-me #about {
+    border-radius: 15px;
   }
 }
