@@ -56,7 +56,54 @@
   display: inline-block;
 }
 
+// social buttons
 
+.center {
+  display: flex;
+  justify-content: center;
+  margin-top: 52px;
+}
+
+.social-buttons {
+  text-align: center;
+  font-size: 30px;
+  .social {
+    padding-left: 0px;
+  }
+  li {
+    display: inline-block;
+  }
+  li a {
+    color: rgba(256, 256, 256, 0.6);
+    border-radius: 50%;
+    list-style-type: none;
+    width: 64px;
+    height: 64px;
+    padding: 10px 14px;
+    border: 1px solid rgba(256, 256, 256, 0.6);
+    cursor: pointer;
+    margin-left: 10px;
+    transition: ease .3s;
+    &:hover {
+      color: rgba(256, 256, 256, 1);
+      border: 1px solid rgba(256, 256, 256, 1);
+    }
+  }
+}
+
+.social:hover > li {
+  opacity: 0.5;
+}
+
+.social:hover > li:hover {
+  opacity: 1;
+}
+
+
+.two-img-background .card-img-overlay {
+  
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), black); 
+}
 
 // about me //
 
