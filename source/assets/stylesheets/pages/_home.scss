@@ -46,19 +46,17 @@
   margin: 0px auto;
 }
 
-.banner a {
+.banner .resume {
   color: rgb(255,255,255);
   width: 200px;
   border-radius: 40px;
   border: 2px solid red;
   margin-top: 40px;
   padding: 12px 0px;
+  display: inline-block;
 }
 
-.two-img-background .card-img-overlay {
-  
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), black); 
-}
+
 
 // about me //
 
@@ -219,7 +217,7 @@
   float: left;
   padding: 7px; 
 }
-.portfolio .bx-1, .portfolio .bx-4 {
+.portfolio .bx-1 {
   width: 32.5%; 
 }
 .portfolio .bx-2 {
@@ -227,6 +225,10 @@
 }
 .portfolio .bx-3 {
   width: 26.5%; 
+}
+
+.portfolio .bx-4 {
+  width: 32.5%;
 }
 .portfolio .bx-middle {
   width: 100%; 
@@ -300,11 +302,18 @@
     background: -moz-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85));
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85));
     background: -ms-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85));
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85)); 
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 15px;
   }
   .projects .music {
     max-width: 32px;
-    height: auto; 
+    height: auto;
+    filter: invert(0) sepia(0) saturate(1) hue-rotate(0deg) brightness(1.2);
+  }
+  .projects .music:hover{
   }
     .projects .heart {
     max-width: 32px;
