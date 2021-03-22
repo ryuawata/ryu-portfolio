@@ -1,5 +1,13 @@
 // Specific CSS for your home-page
 
+/*
+#0B4F6C 11, 79, 108
+#2274A5 34, 116, 165
+#F28482 242, 132, 130
+#9EC5AB 158, 197, 171
+#F1E0C5 241, 224, 197
+*/
+
 .card {
   border: none;
   background: none;
@@ -20,7 +28,7 @@
 }
 
 .top-page .navbar-nav li.active a, .top-page .navbar-nav li:hover a, .top-page .navbar-nav li:visited a {
-  color: red;
+  color: rgb(11, 79, 108);
 }
 
 // banner //
@@ -50,7 +58,7 @@
   color: rgb(255,255,255);
   width: 200px;
   border-radius: 40px;
-  border: 2px solid red;
+  border: 2px solid rgb(11, 79, 108);
   margin-top: 40px;
   padding: 12px 0px;
   display: inline-block;
@@ -108,13 +116,13 @@
 // about me //
 
 .middle-page {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(241, 224, 197);
   width: 100%;
 }
 
 .middle-page .about-me {
   margin-top: -145px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  // box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 .about-me .row {
@@ -171,9 +179,9 @@
 
 .about-me .content-button a {
   color: white;
-  background-color: red;
+  background-color: rgb(11, 79, 108);
   border-radius: 40px;
-  border: 1px solid red;
+  border: 1px solid rgb(11, 79, 108);
   padding: 8px 9px;
 }
 
@@ -235,15 +243,12 @@
 // portfolio //
 
 .portfolio {
-  background-color: black;
-  background-image: url(../img/camera-bg.jpg);
-  background-position: right bottom;
-  background-repeat: no-repeat;
+  background-image: linear-gradient(to right, rgba(241, 224, 197, 0.5 ), rgba(242, 132, 130, 0.3));
   padding: 100px 0;
   margin-top: 0; 
 }
 .portfolio h2 {
-  color: #584f53;
+  color: white;
   margin-bottom: 20px; 
 }
 .portfolio .card {
@@ -335,21 +340,21 @@
       box-shadow: 0px 20px 32px 0px rgba(0, 0, 0, 0.25); 
     }
       .projects .card.active .card-img-overlay, .projects .card:hover .card-img-overlay {
-        background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(255, 0, 0, 0.95));
-        background: -moz-linear-gradient(rgba(0, 0, 0, 0.3), rgba(255, 0, 0, 0.95));
-        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(255, 0, 0, 0.95));
-        background: -ms-linear-gradient(rgba(0, 0, 0, 0.3), rgba(255, 0, 0, 0.95)); 
+        background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(11, 79, 108, .95));
+        background: -moz-linear-gradient(rgba(0, 0, 0, 0.3), rgba(11, 79, 108, .95));
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(11, 79, 108, .95));
+        background: -ms-linear-gradient(rgba(0, 0, 0, 0.3), rgba(11, 79, 108, .95)); 
       }
       .projects .card.active p, .projects .card:hover p {
-        color: red; 
+        color: rgb(11, 79, 108); 
       }
   .projects .card-img-overlay {
     border-radius: 15px;
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85));
-    background: -moz-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85));
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85));
-    background: -ms-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85));
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85));
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2));
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2));
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2));
+    background: -ms-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2));
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2));
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -366,3 +371,38 @@
     max-width: 32px;
     height: auto; 
   }
+
+// developer //
+
+.developer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(241, 224, 197);
+  padding: 48px;
+}
+
+.developer-skills li {
+  display: flex;
+  align-items: center;
+
+}
+
+.developer-skills li img {
+  height: 64px;
+  width: 64px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
