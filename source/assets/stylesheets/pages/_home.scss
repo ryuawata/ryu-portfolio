@@ -372,13 +372,27 @@
     height: auto; 
   }
 
+.skills-tools {
+  background-color: rgb(241, 224, 197);
+}
+
+.skills-tools h3{
+  text-align: center;
+}
+
+.skills-tools .developer-left, .songwriter-right {
+  max-width: 32.5%;
+}
+
 // developer //
 
 .developer {
   display: flex;
   justify-content: center;
-  background-color: rgb(241, 224, 197);
-  padding: 48px;
+}
+
+.developer-skills {
+  display: flex;
 }
 
 .developer-skills li {
@@ -392,7 +406,27 @@
   width: 64px;
 }
 
+// songwriter //
 
+.songwriter {
+  display: flex;
+  justify-content: center;
+}
+
+.songwriter-skills {
+  display: flex;
+}
+
+.songwriter-skills li {
+  display: flex;
+  align-items: center;
+
+}
+
+.songwriter-skills li img {
+  height: 64px;
+  width: 64px;
+}
 
 
 
