@@ -116,7 +116,7 @@
 // about me //
 
 .middle-page {
-  background-color: rgb(241, 224, 197);
+  background-color: rgb(0, 0, 0);
   width: 100%;
 }
 
@@ -291,16 +291,24 @@
 .portfolio .bx-6{
   width: 28.5%; 
 } 
+@media (max-width: 1679px) {
+  .portfolio {
+    // padding-bottom: 518px;
+  }
+}
 @media (max-width: 991px) {
   .portfolio h5 {
     font-size: 16px !important; 
-  } 
   }
+  .portfolio {
+    padding-bottom: 0px;
+  }
+}
 @media (max-width: 767px) {
   .portfolio h5 {
     font-size: 14px !important; 
   } 
-  }
+}
 @media (max-width: 576px) {
   .portfolio h5 {
     font-size: 16px !important; 
@@ -373,11 +381,17 @@
   }
 
 .skills-tools {
-  background-color: rgb(241, 224, 197);
+  background-color: rgb(0,0,0);
+  padding: 48px auto;
+}
+
+.skills-tools h2 {
+  color: rgb(255, 255, 255);
 }
 
 .skills-tools h3{
   text-align: center;
+  color: rgb(255, 255, 255);
 }
 
 .skills-tools .developer-left, .songwriter-right {
