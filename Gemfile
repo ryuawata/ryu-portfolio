@@ -7,6 +7,9 @@ gem 'middleman-metaman'
 gem 'rake'
 gem 'rubocop'
 gem 'compass'
+gem 'coffee-script'
+gem 'webpacker', '~> 4.0'
+
 
 gem 'font-awesome-sass', '~> 5.13.0'
 
