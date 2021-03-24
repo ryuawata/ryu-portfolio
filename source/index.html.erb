@@ -83,11 +83,11 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid projects portfolio" id="portfolio">
+  <div class="container-fluid projects portfolio " id="portfolio" style="background-image: url('<%= image_path('portfolio_background.jpeg') %>'),linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), black);"data-controller="scroll">
     <div class="container">
       <h2>Portfolios</h2>
       <div class="row">
-        <div class="bx bx-1">
+        <div class="bx bx-1 fade-in-left">
           <div class="card"> <img class="card-img" src="<%= image_path('coming_soon.jpg') %>" alt="Natural Wine App">
             <div class="card-img-overlay"> <a href="#"><img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-heart-outline-512.png" class="heart" alt="heart icon"></a>
               <div class="bottom-text">
@@ -96,7 +96,7 @@
             </div>
           </div>
         </div>
-        <div class="bx bx-2">
+        <div class="bx bx-2 fade-in-top">
           <div class="card"> <img class="card-img" src="<%= image_path('tangible_gratitude.png') %>" alt="Tangible Gratitude">
             <div class="card-img-overlay"> <a href="#"><img src="https://cdn0.iconfinder.com/data/icons/social-media-entertainment-line/32/Apple_Music-512.png" class="music" alt="music icon"></a>
               <div class="bottom-text">
@@ -105,7 +105,7 @@
             </div>
           </div>
         </div>
-        <div class="bx bx-3">
+        <div class="bx bx-3 fade-in-bottom">
           <div class="card"> <img class="card-img" src="<%= image_path('yall_rides.png') %>" alt="Y'all Rides">
             <div class="card-img-overlay"> <a href="#"><img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-heart-outline-512.png" class="heart" alt="heart icon"></a>
               <div class="bottom-text">
@@ -117,7 +117,7 @@
       </div>
       <div class="row">
         <div class="bx bx-middle" style="padding: 0;">
-          <div class="bx bx-4">
+          <div class="bx bx-4 fade-in-right">
             <div class="card"> <img class="card-img" src="<%= image_path('for_screenshot.png') %>" alt="Food on Rails">
               <div class="card-img-overlay"> <a href="#"><img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-heart-outline-512.png" class="heart" alt="heart icon"></a>
                 <div class="bottom-text">
@@ -126,7 +126,7 @@
               </div>
             </div>
           </div>
-          <div class="bx bx-5">
+          <div class="bx bx-5 fade-in-top hidden" data-load-target="cards" data-action="@window->scroll#scrollIntoView">
             <div class="card"> <img class="card-img" src="<%= image_path('jif_screenshot.png') %>" alt="Jenna isn't famous">
               <div class="card-img-overlay"> <a href="#"><img src="https://cdn0.iconfinder.com/data/icons/social-media-entertainment-line/32/Apple_Music-512.png" class="music" alt="music icon"></a>
                 <div class="bottom-text">
@@ -135,7 +135,7 @@
               </div>
             </div>
           </div>
-          <div class="bx bx-6">
+          <div class="bx bx-6 fade-in-left">
             <div class="card"> <img class="card-img" src="<%= image_path('bar_xviii.jpeg') %>" alt="Bar XVIII">
               <div class="card-img-overlay"> <a href="#"><img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-heart-outline-512.png" class="heart" alt="heart icon"></a>
                 <div class="bottom-text">
@@ -195,7 +195,7 @@
           </li>
           <li>
             <img src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/postgresql-512.png" alt="postgresql">
-            <p>Postgresql</p>
+            <p>PostgreSQL</p>
           </li>
           <li>
             <img src="https://cdn.iconscout.com/icon/free/png-256/heroku-5-569467.png" alt="heroku">
