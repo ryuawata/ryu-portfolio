@@ -22,10 +22,23 @@ GEM
       regexp_parser (~> 1.5)
       xpath (~> 3.2)
     childprocess (3.0.0)
+    chunky_png (1.4.0)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
+    compass (1.0.3)
+      chunky_png (~> 1.2)
+      compass-core (~> 1.0.2)
+      compass-import-once (~> 1.0.5)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
+      sass (>= 3.3.13, < 3.5)
+    compass-core (1.0.3)
+      multi_json (~> 1.0)
+      sass (>= 3.3.0, < 3.5)
+    compass-import-once (1.0.5)
+      sass (>= 3.2, < 3.5)
     concurrent-ruby (1.1.8)
     contracts (0.13.0)
     cucumber (4.1.0)
@@ -124,6 +137,7 @@ GEM
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
     minitest (5.14.4)
+    multi_json (1.15.0)
     multi_test (0.1.2)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
@@ -178,6 +192,7 @@ GEM
       parser (>= 2.7.1.4)
     ruby-progressbar (1.10.1)
     rubyzip (2.3.0)
+    sass (3.4.25)
     sassc (2.4.0)
       ffi (~> 1.9)
     selenium-webdriver (3.142.7)
@@ -203,6 +218,7 @@ PLATFORMS
 
 DEPENDENCIES
   capybara
+  compass
   cucumber
   font-awesome-sass (~> 5.13.0)
   middleman
